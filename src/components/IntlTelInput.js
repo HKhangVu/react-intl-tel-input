@@ -1265,7 +1265,7 @@ class IntlTelInput extends Component {
       this.props.value !== undefined ? this.props.value : this.state.value;
 
     return (
-      <div className={wrapperClass} style={wrapperStyle}>
+      <div styleName={wrapperClass}>
         <FlagDropDown
           refCallback={this.setFlagDropdownRef}
           allowDropdown={this.allowDropdown}
