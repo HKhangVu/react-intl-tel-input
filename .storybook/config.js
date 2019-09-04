@@ -13,7 +13,7 @@ function loadStories() {
 addDecorator(
   withOptions({
     name: `react-intl-tel-input v${version}`,
-    url: 'https://github.com:HKhangVu/react-intl-tel-input.git#7.0.2',
+    url: 'https://github.com:HKhangVu/react-intl-tel-input.git',
     sidebarAnimations: true,
   })
 );
